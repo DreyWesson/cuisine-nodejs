@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.css" />
+    <link rel="stylesheet" href="/public/css/confetti_cuisine.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <a class="navbar-brand" href="#">Confetti Cuisine</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-5">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item px-5">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item active px-5">
+              <a class="nav-link" href="#"
+                ><span class="sr-only">(current)</span>Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-center">
+        <div class="card col-xs-12 col-md-6 p-3">
+          <img
+            class="card-img-top"
+            src="../public/images/cuisine.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Reach Out To US</h5>
+            <p class="card-text text-center">
+              Enter your email if you're interested in learning more
+            </p>
+            <form
+              class="contact-form d-flex justify-content-center col-12"
+              action="/"
+              method="post"
+            >
+              <input type="email" name="email" id="email" required />
+              <input
+                class="btn btn-warning button"
+                type="submit"
+                value="submit"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
