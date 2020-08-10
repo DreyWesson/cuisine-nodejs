@@ -12,6 +12,7 @@ exports.handle = (req, res) => {
   }
 };
 exports.get = (url, action) => {
+  console.log("this is the url: ", url);
   routes["GET"][url] = action;
 };
 exports.post = (url, action) => {

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="description" content="confetti cuisine" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/public/css/bootstrap.css" />
-    <link rel="stylesheet" href="/public/css/confetti_cuisine.css" />
+    <link rel="stylesheet" href="/bootstrap.css" />
+    <link rel="stylesheet" href="/confetti_cuisine.css" />
   </head>
   <body>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
-        <a class="navbar-brand" href="#">Confetti Cuisine</a>
+        <a class="navbar-brand" href="/">Confetti Cuisine</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item px-5">
-              <a class="nav-link" href="#">Home </a>
+              <a class="nav-link" href="/">Home </a>
             </li>
             <li class="nav-item px-5">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="/courses.html">Courses</a>
             </li>
             <li class="nav-item active px-5">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/contact.html"
                 ><span class="sr-only">(current)</span>Contact</a
               >
             </li>
@@ -41,11 +42,7 @@
       </nav>
       <div class="d-flex justify-content-center">
         <div class="card col-xs-12 col-md-6 p-3">
-          <img
-            class="card-img-top"
-            src="../public/images/cuisine.jpg"
-            alt="Card image cap"
-          />
+          <img class="card-img-top" src="/cuisine.jpg" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title text-center">Reach Out To US</h5>
             <p class="card-text text-center">
@@ -56,6 +53,7 @@
               action="/"
               method="post"
             >
+              <label for="email" class="sr-only">Email</label>
               <input type="email" name="email" id="email" required />
               <input
                 class="btn btn-warning button"
@@ -67,5 +65,20 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
