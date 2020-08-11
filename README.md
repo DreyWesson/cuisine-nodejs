@@ -3,4 +3,11 @@
 <!-- In the terminal -->
 
 npm install
-node main.js
+
+# If you dont have nodemon globally
+
+npm i nodemon
+
+# Finally
+
+npm start
